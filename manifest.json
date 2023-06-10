@@ -13,11 +13,9 @@
     },
     "minimum_chrome_version": "102",
     "permissions": [
-        "tabs",
-        "activeTab"
+        "tabs"
     ],
     "host_permissions": [
-        "http://localhost/*",
-        "http://localhost:*/*"
+        "http://localhost/*"
     ]
 }
