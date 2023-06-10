@@ -4,7 +4,7 @@ The repo implements a Chrome extension to automatically close browser tabs opene
 
 When you use `cosign sign` or `gitsign`, these tools take you through an OAuth flow, finally redirecting you to an "Auth successful" page. There are lots of things you can do to streamline this, but the final page remains open due to security limitations in the browser (windows aren't allowed to close themselves).
 
-Similarly, Chainguard's `chainctl auth login` pops up a browser to reauthenticate, leaving a crufty window in its wake.
+Similarly, Chainguard's [`chainctl auth login`](https://edu.chainguard.dev/chainguard/chainctl/chainctl-docs/chainctl_auth_login/) command pops up a browser to reauthenticate, and leaves a crufty window in its wake upon completion.
 
 This Chrome extension takes care of cleaning up the cruft, and auto-closes these windows when they're found.
 
