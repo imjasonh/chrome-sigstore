@@ -13,7 +13,7 @@ Auto-closing the window doesn't impact the security of the Fulcio certificate or
 To get the best experience with `gitsign`, [configure](https://github.com/sigstore/gitsign/#configuration) the identity provider you want to use. For example:
 
 ```
-git config --local gitsign.connectorID https://accounts.google.com
+git config --global gitsign.connectorID https://accounts.google.com
 ```
 
 To get the best experience with `chainctl`, configure the identity provider you want to use. For example:
