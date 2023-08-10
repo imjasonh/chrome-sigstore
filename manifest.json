@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Sigstore close post-auth tabs",
-    "description": "Automatically close tabs opened by the Sigstore keyless signing flow.",
+    "description": "Automatically close tabs opened by the Sigstore keyless signing flow and Chainguard auth flow.",
     "version": "0.0.1",
     "icons": {
         "16": "images/icon-16.png",
@@ -24,9 +24,5 @@
     ],
     "host_permissions": [
         "http://localhost/*"
-    ],
-    "options_ui": {
-        "page": "options.html",
-        "open_in_tab": false
-    }
+    ]
 }
