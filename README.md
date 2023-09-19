@@ -23,14 +23,3 @@ To get the best experience with `chainctl`, configure the identity provider you 
 ```
 chainctl config set default.social-login google-oauth2
 ```
-
-## Installation
-
-**This is a short-term solution until the extension is published on the Chrome webstore.**
-
-1. Clone the repo
-1. Browse to chrome://extensions/
-1. Enable "Developer mode" if it's not already
-1. Click "Load unpacked" and browse to find where you cloned the repo
-
-If you update the code, make sure to reload the extension to pick up changes.
